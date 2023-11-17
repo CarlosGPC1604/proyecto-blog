@@ -1,62 +1,43 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-	name: "Next.js + NextUI",
-	description: "Make beautiful websites regardless of your design experience.",
+	name: "Blog UNIVAM",
+	description:
+		"Blog creado a manera de proyecto para la materia de Bases de Datos.",
 	navItems: [
 		{
-			label: "Home",
+			label: "Inicio",
 			href: "/",
 		},
-    {
-      label: "Docs",
-      href: "/docs",
-    },
-    {
-      label: "Pricing",
-      href: "/pricing",
-    },
-    {
-      label: "Blog",
-      href: "/blog",
-    },
-    {
-      label: "About",
-      href: "/about",
-    }
+		{
+			label: "Categorías",
+			href: "/categorias",
+		},
+		{
+			label: "Mis blogs",
+			href: "/mis-blogs",
+		},
+		{
+			label: "Perfil",
+			href: "/perfil",
+		},
 	],
 	navMenuItems: [
 		{
-			label: "Profile",
-			href: "/profile",
+			label: "Categorías",
+			href: "/categorias",
 		},
 		{
-			label: "Dashboard",
-			href: "/dashboard",
+			label: "Mis blogs",
+			href: "/mis-blogs",
 		},
 		{
-			label: "Projects",
-			href: "/projects",
+			label: "Perfil",
+			href: "/perfil",
 		},
 		{
-			label: "Team",
-			href: "/team",
-		},
-		{
-			label: "Calendar",
-			href: "/calendar",
-		},
-		{
-			label: "Settings",
-			href: "/settings",
-		},
-		{
-			label: "Help & Feedback",
-			href: "/help-feedback",
-		},
-		{
-			label: "Logout",
-			href: "/logout",
+			label: "Cerrar sesión",
+			href: "/perfil",
 		},
 	],
 	links: {
@@ -64,6 +45,6 @@ export const siteConfig = {
 		twitter: "https://twitter.com/getnextui",
 		docs: "https://nextui.org",
 		discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://patreon.com/jrgarciadev"
+		sponsor: "https://patreon.com/jrgarciadev",
 	},
 };
